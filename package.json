@@ -1,0 +1,19 @@
+{
+  "name": "weather-now",
+  "version": "1.0.0",
+  "description": "web app that gives the weather for cities.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Johelyz17/weather-now.git"
+  },
+  "author": "Johelyz Carrero",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Johelyz17/weather-now/issues"
+  },
+  "homepage": "https://github.com/Johelyz17/weather-now#readme"
+}
