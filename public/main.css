@@ -1,3 +1,11 @@
 body{
-   color:crimson
+   width: 600px;
+   margin: 0 auto;
+   font-family:s("Open Sans", "ans-serif")
+};
+
+.container{
+   width: 600px;
+   margin: 0 auto;
+   padding: 30px;
 }
