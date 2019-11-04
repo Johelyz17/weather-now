@@ -4,7 +4,7 @@
   "description": "web app that gives the weather for cities.",
   "main": "app.js",
   "scripts": {
-    "scripts":""
+    "start": "nodemon app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/Johelyz17/weather-now/issues"
   },
-  "homepage": "https://github.com/Johelyz17/weather-now#readme"
+  "homepage": "https://github.com/Johelyz17/weather-now#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
