@@ -4,6 +4,9 @@ const app = express()
 // settting view engine
 app.set("view engien", "ejs")
 
+// middleware
+app.use(express.static("./public"));
+
 /* 
 ROUTES
 */
