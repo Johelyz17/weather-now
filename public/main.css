@@ -2,10 +2,42 @@ body{
    width: 600px;
    margin: 0 auto;
    font-family:s("Open Sans", "ans-serif")
-};
+}
 
 .container{
    width: 600px;
    margin: 0 auto;
    padding: 30px;
+}
+
+.ghost-input, p {
+   width: 100%;
+   padding: 10px 15px;
+   margin:30px 0;
+   font-family:"Open Sans", verdana;
+   font-size: 25px;
+   font-weight:300;
+   color: #4B545F;
+   border: 0;
+   outline: none;
+}
+
+.ghost-input:focus {
+   border-bottom: 1px solid #ddd;
+}
+
+.ghost-button {
+   border: 2px solid #ddd ;
+   width: 100%;
+   min-width: 350px;
+   padding: 10px 30px;
+   transition: all .4s ease-in-out;
+}
+
+.ghost-button:hover {
+   border: 2px solid #515151;
+}
+
+p {
+   color: #E64A19;
 }
