@@ -4,6 +4,7 @@
   "description": "web app that gives the weather for cities.",
   "main": "app.js",
   "scripts": {
+    "scripts":""
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
