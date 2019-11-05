@@ -7,7 +7,7 @@
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,600i,700,700i,800,800i&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="main.css">
     <title>weather now</title>
-</head>
+    </head>
 <body>
     <div clas="container">
         <form action="/" method="POST">
@@ -15,8 +15,13 @@
             <input class="ghost-button" type="submit" value="Weather Now">
         </form>
 
-
         <p>The weather in New York is 70 C </p>
+         
+        <% if(error){
+            <p><%= error %></p>
+        <% } else { %>
+            <p><%= weather %></p>
+        <% } %>
     </div>
 </body>
 </html>
