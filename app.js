@@ -1,11 +1,14 @@
-const express = require('express')
-const app = express()
+const express = require('express');
+const bodyParser = require("body-parser");
+
+const app = express();
  
 // settting view engine
-app.set("view engien", "ejs")
+app.set("view engien", "ejs");
 
 // middleware
 app.use(express.static("./public"));
+app.use(bodyParser.urlencoded({extended: false}));
 
 /* 
 ROUTES
@@ -15,7 +18,11 @@ ROUTES
 app.get('/', function (req, res) {
   res.render("home.ejs");
 });
- 
-app.listen(3000,function(){
-    console.log("server is live on port:3000");
+
+app.post("/whatever-we-want", function(req, res){
+  console.log(req);
 });
+ 
+app.listen(3000,function() {
+    console.log("server is live on port:3000")
+})
